@@ -1,0 +1,39 @@
+.circle {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+
+  width: 200px;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #4d21c9 0%, rgba(63, 33, 201, 0.64) 35.88%, rgba(37, 33, 201, 0) 100%, rgba(37, 33, 201, 0) 100%);
+}
+
+.circle h3 {
+  font-size: 4.5rem;
+  font-weight: 800;
+  line-height: 100%;
+  color: #fff;
+}
+
+.circle span {
+  font-size: 1.125rem;
+  font-weight: 700;
+  color: #cac9ff;
+  opacity: 0.5168;
+}
+
+@media only screen and (max-width: 768px) {
+  .circle {
+    width: 140px;
+  }
+  .circle h3 {
+    font-size: 56px;
+    line-height: 72px;
+  }
+  .circle span {
+    font-size: 1rem;
+  }
+}
